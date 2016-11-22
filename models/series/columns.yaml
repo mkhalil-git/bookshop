@@ -1,0 +1,27 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    title:
+        label: title
+        searchable: true
+
+    slug:
+        label: slug
+
+    ordinal:
+        label: ordinal
+
+    image:
+        type: partial
+        path: ~/plugins/acme/bookshop/models/series/_image.htm
+        sortable: false
+
+
+    price:
+        label: price
+        searchable: true
+
+    shortDescription:
+        label: short description

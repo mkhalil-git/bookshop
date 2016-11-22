@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Level
+
+# Model Form Field configuration
+form: $/acme/bookshop/models/level/fields.yaml
+
+# Model Class name
+modelClass: Acme\Bookshop\Models\Level
+
+# Default redirect location
+defaultRedirect: acme/bookshop/levels
+
+# Create page
+create:
+    title: Create Level
+    redirect: acme/bookshop/levels/update/:id
+    redirectClose: acme/bookshop/levels
+
+# Update page
+update:
+    title: Edit Level
+    redirect: acme/bookshop/levels
+    redirectClose: acme/bookshop/levels
+
+# Preview page
+preview:
+    title: Preview Level

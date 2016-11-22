@@ -1,0 +1,30 @@
+scopes:
+    author:
+        label: Author
+        modelClass: Acme\BookShop\Models\Author
+        nameFrom: name
+        conditions: author_id in (:filtered)
+
+    category:
+        label: Category
+        modelClass: Acme\BookShop\Models\Category
+        nameFrom: name
+        conditions: category_id in (:filtered)
+
+    level:
+        label: Level
+        modelClass: Acme\BookShop\Models\Level
+        nameFrom: name
+        conditions: level_id in (:filtered)
+
+    publisher:
+        label: Publisher
+        modelClass: Acme\BookShop\Models\Publisher
+        nameFrom: name
+        conditions: publisher_id in (:filtered)
+
+    series:
+        label: Series
+        modelClass: Acme\BookShop\Models\Series
+        nameFrom: title
+        conditions: series_id in (:filtered)

@@ -1,0 +1,62 @@
+# relation behavior config
+
+author:
+    label: Author
+    view:
+        list: $/acme/bookshop/models/author/columns.yaml
+        form: $/acme/bookshop/models/author/fields.yaml
+        toolbarButtons: add|create|remove
+    manage:
+        showSearch: true
+        recordsPerPage: 10
+        list: $/acme/bookshop/models/author/columns.yaml
+        form: $/acme/bookshop/models/author/fields.yaml
+
+category:
+    label: category
+    view:
+        list: $/acme/bookshop/models/category/columns.yaml
+        form: $/acme/bookshop/models/category/fields.yaml
+        toolbarButtons: add|create|remove
+    manage:
+        showSearch: true
+        recordsPerPage: 10
+        list: $/acme/bookshop/models/category/columns.yaml
+        form: $/acme/bookshop/models/category/fields.yaml
+
+level:
+    label: level
+    view:
+        list: $/acme/bookshop/models/level/columns.yaml
+        form: $/acme/bookshop/models/level/fields.yaml
+        toolbarButtons: add|create|remove
+    manage:
+        showSearch: true
+        recordsPerPage: 10
+        list: $/acme/bookshop/models/level/columns.yaml
+        form: $/acme/bookshop/models/level/fields.yaml
+
+
+publisher:
+    label: publisher
+    view:
+        list: $/acme/bookshop/models/publisher/columns.yaml
+        form: $/acme/bookshop/models/publisher/fields.yaml
+        toolbarButtons: add|create|remove
+    manage:
+        showSearch: true
+        recordsPerPage: 10
+        list: $/acme/bookshop/models/publisher/columns.yaml
+        form: $/acme/bookshop/models/publisher/fields.yaml
+
+series:
+    label: series
+    view:
+        list: $/acme/bookshop/models/series/columns.yaml
+        form: $/acme/bookshop/models/series/fields.yaml
+        toolbarButtons: add|create|remove
+    manage:
+        showSearch: true
+        recordsPerPage: 10
+        list: $/acme/bookshop/models/series/columns.yaml
+        form: $/acme/bookshop/models/series/fields.yaml

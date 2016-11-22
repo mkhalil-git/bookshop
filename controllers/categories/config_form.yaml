@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Category
+
+# Model Form Field configuration
+form: $/acme/bookshop/models/category/fields.yaml
+
+# Model Class name
+modelClass: Acme\Bookshop\Models\Category
+
+# Default redirect location
+defaultRedirect: acme/bookshop/categories
+
+# Create page
+create:
+    title: Create Category
+    redirect: acme/bookshop/categories/update/:id
+    redirectClose: acme/bookshop/categories
+
+# Update page
+update:
+    title: Edit Category
+    redirect: acme/bookshop/categories
+    redirectClose: acme/bookshop/categories
+
+# Preview page
+preview:
+    title: Preview Category

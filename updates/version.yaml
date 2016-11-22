@@ -1,0 +1,22 @@
+1.0.1: First version of BookShop
+1.0.2:
+  - Created books,series,author,publisher,category,level Tables
+  - create_authors_table.php
+  - create_publishers_table.php
+  - create_categories_table.php
+  - create_levels_table.php
+  - create_series_table.php
+  - create_books_table.php
+1.0.3: 
+  - add tables seeders 
+  - SeedAllTables.php
+1.0.4: 
+  - add new nullable columns to all tables
+  - add_ordinal_column.php
+1.0.5:
+  - add new fields to book table width and height , has cd 
+  - add_dimensions_to_book_table.php
+  - add_hascd_to_book_table.php
+1.0.6:
+  - Create News Table
+  - create_news_table.php

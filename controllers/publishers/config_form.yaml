@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Publisher
+
+# Model Form Field configuration
+form: $/acme/bookshop/models/publisher/fields.yaml
+
+# Model Class name
+modelClass: Acme\Bookshop\Models\Publisher
+
+# Default redirect location
+defaultRedirect: acme/bookshop/publishers
+
+# Create page
+create:
+    title: Create Publisher
+    redirect: acme/bookshop/publishers/update/:id
+    redirectClose: acme/bookshop/publishers
+
+# Update page
+update:
+    title: Edit Publisher
+    redirect: acme/bookshop/publishers
+    redirectClose: acme/bookshop/publishers
+
+# Preview page
+preview:
+    title: Preview Publisher

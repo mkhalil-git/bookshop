@@ -1,0 +1,38 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    # id:
+    #     label: ID
+    #     searchable: true
+    title:
+        label: title
+        searchable: true
+
+    slug:
+        label: slug
+
+    ordinal:
+        label: ordinal
+
+    image:
+        type: partial
+        path: ~/plugins/acme/bookshop/models/book/_image.htm
+        sortable: false
+
+    numberOfPages:
+        label: number of pages
+    language:
+        label: language
+    ISBN:
+        label: ISBN
+        searchable: true
+    publishDate:
+        label: publish date
+    author:
+        label: author
+        sortable: false
+        relation: author
+        valueFrom: name
+        # searchable: true

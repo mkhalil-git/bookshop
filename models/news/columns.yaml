@@ -1,0 +1,26 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    title:
+        label: Title
+        searchable: true
+
+    description:
+        label: Desc
+        searchable: true 
+    image:
+        type: partial
+        path: ~/plugins/acme/bookshop/models/news/_image.htm
+        sortable: false    
+
+    startDate:
+        label: StartDate
+        searchable: true
+
+    endDate:
+        label: EndDate
+        searchable: true       
+       
+

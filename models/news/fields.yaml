@@ -1,0 +1,29 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    title:
+        label: Title
+        required: true
+
+    description:
+        label: Desc
+        required: true 
+    image:
+        label: image
+        required: true
+        type: fileupload
+        mode: image
+        
+    startDate:
+        label: StartDate
+        type: datepicker
+        mode: date
+        
+           
+    endDate:
+        label: EndDate
+        type: datepicker
+        mode: date
+       

@@ -1,0 +1,93 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    # id:
+    #     label: id
+    #     disabled: true
+    title:
+        label: title
+        required: true
+
+    slug:
+        label: slug
+
+    ordinal:
+        label: ordinal
+
+
+    image:
+        label: image
+        required: true
+        type: fileupload
+        mode: image
+        # attachOne
+    numberOfPages:
+        label: number of pages
+        required: true
+    price:
+        label: price
+        required: true
+
+    language:
+        label: language
+        required: true
+        type: dropdown
+
+    ISBN:
+        label: ISBN
+        required: true
+
+    width:
+        label: width
+
+    height:
+        label: height
+
+    hasCd:
+        label: has cd
+        type: checkbox
+
+    publishDate:
+        label: publish date
+        required: true
+        type: datepicker
+        mode: date
+
+    author_id:
+        label: author 
+        required: true
+        type: partial
+        path: fields_author
+
+    publisher_id:
+        label: publisher 
+        required: true
+        type: partial
+        path: fields_publisher
+
+    category_id:
+        label: category 
+        required: true
+        type: partial
+        path: fields_category
+
+    level_id:
+        label: level 
+        required: true
+        type: partial
+        path: fields_level
+
+    series_id:
+        label: series
+        type: partial
+        path: fields_series
+    
+    shortDescription:
+        label: short description
+
+    description:
+        label: description
+        type: richeditor 
+

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: News
+
+# Model Form Field configuration
+form: $/acme/bookshop/models/news/fields.yaml
+
+# Model Class name
+modelClass: Acme\Bookshop\Models\News
+
+# Default redirect location
+defaultRedirect: acme/bookshop/news
+
+# Create page
+create:
+    title: Create News
+    redirect: acme/bookshop/news/update/:id
+    redirectClose: acme/bookshop/news
+
+# Update page
+update:
+    title: Edit News
+    redirect: acme/bookshop/news
+    redirectClose: acme/bookshop/news
+
+# Preview page
+preview:
+    title: Preview News

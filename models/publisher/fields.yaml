@@ -1,0 +1,10 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: name
+        # disabled: true
+    ordinal:
+        label: ordinal

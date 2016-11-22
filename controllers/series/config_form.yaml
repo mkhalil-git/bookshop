@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Series
+
+# Model Form Field configuration
+form: $/acme/bookshop/models/series/fields.yaml
+
+# Model Class name
+modelClass: Acme\Bookshop\Models\Series
+
+# Default redirect location
+defaultRedirect: acme/bookshop/series
+
+# Create page
+create:
+    title: Create Series
+    redirect: acme/bookshop/series/update/:id
+    redirectClose: acme/bookshop/series
+
+# Update page
+update:
+    title: Edit Series
+    redirect: acme/bookshop/series
+    redirectClose: acme/bookshop/series
+
+# Preview page
+preview:
+    title: Preview Series

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Book
+
+# Model Form Field configuration
+form: $/acme/bookshop/models/book/fields.yaml
+
+# Model Class name
+modelClass: Acme\BookShop\Models\Book
+
+# Default redirect location
+defaultRedirect: acme/bookshop/books
+
+# Create page
+create:
+    title: Create Book
+    redirect: acme/bookshop/books/update/:id
+    redirectClose: acme/bookshop/books
+
+# Update page
+update:
+    title: Edit Book
+    redirect: acme/bookshop/books
+    redirectClose: acme/bookshop/books
+
+# Preview page
+preview:
+    title: Preview Book
