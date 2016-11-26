@@ -26,12 +26,16 @@ class News extends ComponentBase
                         ],
         ];
     }
-
-
+  
+    public function allNews()
+    {
+        return \Acme\BookShop\Models\News::orderBy("startDate", "desc")->get();
+    }
     public function recentNews()
     {
         $max = $this->property('max', 3);
         return \Acme\BookShop\Models\News::orderBy("startDate", "desc")->limit($max)->get();
     }
+     
 
 }
