@@ -10,7 +10,7 @@
                              <div class="col-md-3">
                                 <div class="aa-series-blog-single">
                                     <div class="aa-series-img  img-circle">
-                                        <a href="#">
+                                        <a href=" href="{{ url('/series') ~ '/' ~ series.slug }}">
                                         {% if series.image.getPath %}
                                             <img src="{{series.image.getpath}}">
                                         {% else %}
@@ -20,7 +20,7 @@
                                    </div>
                                     <div class="aa-series-info">
                                         <h3 class="aa-series-title">
-                                          <a href="#">{{series.title}}</a>
+                                          <a href="{{ url('/series') ~ '/' ~ series.slug }}">{{series.title}}</a>
                                         </h3>
                                         <p>{{series.shortDescription}}</p>
                                         <!--<a href="#" class="aa-read-mor-btn">Read more <span class="fa fa-long-arrow-right"></span></a>-->
