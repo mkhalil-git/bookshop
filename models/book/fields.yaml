@@ -86,7 +86,11 @@ fields:
     
     shortDescription:
         label: short description
+<<<<<<< HEAD
         type: richeditor 
+=======
+         type: richeditor
+>>>>>>> 05de2c5a51c44dd889cf1b3066e2233972dab07b
 
     description:
         label: description
