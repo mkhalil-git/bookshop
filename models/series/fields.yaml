@@ -27,6 +27,7 @@ fields:
 
     shortDescription:
         label: short description
+        type: richeditor 
 
     description:
         label: description
